@@ -1,0 +1,22 @@
+# Secrets - never upload these to GitHub
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Assignment instructions PDF (not part of the project)
+assignment AI Engineering.pdf
